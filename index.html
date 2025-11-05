@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Cándido Avendaño</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Cándido Avendaño</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Desarrollador Web & Aprendiz de Programación</h2>
+    <p>Bienvenido a mi portafolio personal. Aquí muestro mis proyectos, habilidades y experiencia.</p>
+    <a href="#portafolio" class="btn">Ver Portafolio</a>
+  </section>
+
+  <section id="sobre-mi" class="section">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy <strong>Cándido Avendaño</strong>, un entusiasta del desarrollo web en constante aprendizaje.
+      He trabajado en proyectos personales utilizando HTML, CSS y JavaScript. Me apasiona crear sitios funcionales y atractivos, siempre enfocado en mejorar mis habilidades.
+    </p>
+
+    <h3>Currículum Vitae</h3>
+    <ul class="cv-list">
+      <li><strong>Nombre:</strong> Cándido Avendaño</li>
+      <li><strong>Profesión:</strong> Desarrollador Web</li>
+      <li><strong>Ubicación:</strong> México</li>
+      <li><strong>Email:</strong> <a href="mailto:Dirty.shakaloso@gmail.com">Dirty.shakaloso@gmail.com</a></li>
+      <li><strong>Experiencia:</strong> Creación de sitios web personales, proyectos en GitHub</li>
+      <li><strong>Habilidades:</strong> HTML, CSS, JavaScript, GitHub, Replit</li>
+    </ul>
+
+    <div class="cv-download">
+      <a href="cv-candido-avendano.pdf" download class="btn">📄 Descargar CV</a>
+      <p class="nota">*Asegúrate de subir tu archivo <strong>cv-candido-avendano.pdf</strong> a la misma carpeta del proyecto.</p>
+    </div>
+  </section>
+
+  <section id="portafolio" class="section">
+    <h2>Portafolio</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Proyecto 1</h3>
+        <p>Sitio web personal con HTML y CSS adaptable a dispositivos móviles.</p>
+        <a href="#" class="btn">Ver Proyecto</a>
+      </div>
+      <div class="card">
+        <h3>Proyecto 2</h3>
+        <p>Aplicación web con JavaScript para mostrar datos dinámicos.</p>
+        <a href="#" class="btn">Ver Proyecto</a>
+      </div>
+      <div class="card">
+        <h3>Proyecto 3</h3>
+        <p>Diseño de portafolio profesional con integración a GitHub Pages.</p>
+        <a href="#" class="btn">Ver Proyecto</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p>Puedes escribirme directamente a: <a href="mailto:Dirty.shakaloso@gmail.com">Dirty.shakaloso@gmail.com</a></p>
+    
+    <form id="contact-form">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo electrónico" required />
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar Mensaje</button>
+    </form>
+    <p id="mensaje-exito" class="mensaje-exito"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Cándido Avendaño - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
